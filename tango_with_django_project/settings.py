@@ -132,3 +132,5 @@ MEDIA_URL = '/media/'
 
 #URL a user is redirected to if they try to access a page that rquires them to be logged in
 LOGIN_URL = '/rango/login/'
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
